@@ -1,15 +1,2 @@
-# ============================================================
-#  НАСТРОЙКИ БОТА — заполни перед запуском
-# ============================================================
-
-# Токен от @BotFather
-BOT_TOKEN = "8723023639:AAGxLwMQ99q09N2YDvjHOBhcKVImgaIl1cc"
-
-# Telegram user_id администраторов (можно несколько)
-ADMIN_IDS = [8634622796]   # замени на свой ID
-
-# Название магазина (отображается в боте)
-SHOP_NAME = "🎁 Gift Shop"
-
-# Валюта (XTR = Telegram Stars)
-CURRENCY = "Stars"
+import os
+BOT_TOKEN = os.getenv("BOT_TOKEN")
